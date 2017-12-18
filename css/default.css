@@ -22,7 +22,7 @@
 }
 
 .logo10travaux {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 #mission {
@@ -137,7 +137,7 @@
 	height: 100%;
 	width: 100%;
 	padding: 10%;
-	padding-top: 20%;
+	padding-top: 10%;
 }
 
 .photo__title {
@@ -153,7 +153,7 @@
 	color: #fff;
 	width: 100%;
 	max-width: 540px;
-	min-height: 300px;
+	min-height: 250px;
 }
 
 .photo__title2 {
@@ -184,8 +184,10 @@
 	max-width: 540px;
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 1050px) {
+	.childphoto {
+		width: 100%;
+	}
 }
 
 @media (max-width: 660px) {
@@ -195,8 +197,7 @@
 	}
 }
 
-@media (max-width: 414px) {
-
+@media (max-width: 530px) {
 
 	.title {
 		font-size: 30px;
@@ -242,5 +243,16 @@
 
 	.title2 {
 		font-size: 40px;
+	}
+}
+
+@media (max-width: 420px) {
+	.photo__title {
+		font-size: 22px;
+		min-height: 110px;
+	}
+
+	.photo__content {
+		padding-top: 5%;
 	}
 }
