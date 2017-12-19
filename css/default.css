@@ -230,7 +230,7 @@
 	}
 
 	#mission{
-		height: 800px;
+		height: 900px;
 	}
 
 	.child {
@@ -287,5 +287,6 @@
 
 	.text {
 		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 }
