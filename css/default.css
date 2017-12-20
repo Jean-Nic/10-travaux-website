@@ -118,7 +118,6 @@ html, html a {
 
 .childphoto img {
 	transition: opacity .6s, transform .6s;
-	will-change: opacity;
 }
 
 .childphoto:hover img {
@@ -139,6 +138,7 @@ html, html a {
 	letter-spacing: 1;
 	color: #fff;
 	max-width: 600px;
+	margin-top: 80px;
 	margin-bottom: 90px;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -208,7 +208,7 @@ html, html a {
 	position: relative;
 	text-align: left;
 	font-family: 'Spectral', serif;
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 400;
 	font-kerning: normal;
 	letter-spacing: 1;
@@ -272,11 +272,11 @@ html, html a {
 	}
 
 	.photo__title2 {
-		font-size: 12px;
+		font-size: 13px;
 	}
 
 	.photo__participants {
-		font-size: 12px;
+		font-size: 13px;
 	}
 
 	.photo__content {
