@@ -13,6 +13,7 @@
   <meta property="og:image" content="https://jean-nic.github.io/10-travaux-website/og-image.jpg" />
 
   <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css?family=Spectral:400,400i,500,500i,700,700i,800,800i" rel="stylesheet">
 
   <link rel="icon" type="image/png" href="favicon.png">
@@ -25,19 +26,31 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+    window.sr = ScrollReveal();
+      sr.reveal('.fadeInDown');
+  </script>
+
 </head>
 
 <body style="margin: 0px">
   <div id="header">
     <div class="top-bar">
       <a target="_blank" href="https://www.mirego.com">
- 		     <img class="logo__mirego" src="files/logo-mirego.svg" alt="Mirego">
+ 		     <img class="logo__mirego animated fadeInleft" src="files/logo-mirego.svg" alt="Mirego">
       </a>
- 		  <img id="crest" src="files/logo-10ans.svg" alt="Mirego 10 ans">
+ 		  <img id="crest" class="animated fadeInRight" src="files/logo-10ans.svg" alt="Mirego 10 ans">
     </div>
-    <img class="logo10travaux" src="files/logo-10-travaux.svg" alt="10 travaux de Mirego">
-    <p class="title">Dix bonnes actions dans nos communautés de Québec et Montréal.</p>
+    <div class="container__center">
+      <img class="logo10travaux animated fadeInUp" src="files/logo-10-travaux.svg" alt="10 travaux de Mirego">
+      <p class="title animated fadeInUp">Dix bonnes actions dans nos communautés de Québec et Montréal.</p>
+    </div>
+    <div class="container__center">
+      <p class="center text animated fadeInUp">À l’occasion de notre 10<sup>e</sup> anniversaire et du temps des fêtes <i>(et parce qu’on est chanceux et qu’on reçoit beaucoup!)</i>, plusieurs membres de notre équipe avait envie de redonner. <br> <br>On s’est retroussé les manches et on a décidé de s’attaquer aux <b>Dix travaux de Mirego, 10 initiatives communautaires à Québec et à Montréal.</b></p>
+    </div>
 	</div>
+
+<!-- SECTION MISSION V1
 
 	<div id="mission" class="container">
 		<div class="child">
@@ -47,6 +60,8 @@
 			<p class="center text">À l’occasion de notre 10e anniversaire et du temps des fêtes <i>(et parce qu’on est chanceux et qu’on reçoit beaucoup!)</i>, plusieurs membres de notre équipe avait envie de redonner. <br> <br>On s’est retroussé les manches et on a décidé de s’attaquer aux <b><font color="#FF3829">Dix travaux de Mirego, 10 initiatives communautaires à Québec et à Montréal.</font></b></p>
 		</div>
 	</div>
+
+-->
 
 	<div class="container">
 		<div class="childphoto">
@@ -180,7 +195,7 @@
 
   <div class="container">
     <div class="footer">
-      <img src="files/icn-ornaments.svg" padding-top: 0px; alt="Ornaments">
+      <img class="animated fadeInDown" src="files/icn-ornaments.svg" padding-top: 0px; alt="Ornaments">
       <p class="title2">Toute l’équipe de Mirego vous souhaite de joyeuses fêtes!</p>
     </div>
     <div class="footer">
@@ -188,6 +203,10 @@
         <img class="logo-bottom" src="files/logo-mirego-black.svg" alt="Mirego">
       </a>
     </div>
+    <div class="footer__icons">
+
+    </div>
+
   </div>
 </body>
 </html>

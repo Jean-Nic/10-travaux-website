@@ -3,6 +3,10 @@
 	box-sizing: border-box;
 }
 
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
 
 #header {
 	display: flex;
@@ -22,7 +26,7 @@
 }
 
 .logo10travaux {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .logo__mirego {
@@ -43,10 +47,10 @@
 	text-align: center;
 	font-family: 'Spectral', serif;
 	font-size: 40px;
-	font-weight: 700;
+	font-weight: 800;
 	line-height: 1.2;
 	color: #ffffff;
-	max-width: 800px;
+	max-width: 850px;
   margin: 64px 32px;
 }
 
@@ -68,15 +72,28 @@
 	flex-wrap: wrap;
 }
 
+.container__center {
+  display: flex;
+  align-items: center;
+	flex-direction: column;
+}
+
 .footer {
 	width: 100%;
 	text-align: center;
 	margin: 0;
-	/*padding-top: 100px;*/
 }
 
 .footer img {
 	padding-bottom: 100px;
+}
+
+.footer__icons {
+	width: 100%;
+	margin-top: 10px;
+	min-height: 85px;
+	background-image: url('../files/icn-groceries.svg');
+	background-repeat: repeat;
 }
 
 .logo-bottom {
@@ -114,13 +131,16 @@
 }
 
 .text {
-	text-align: left;
+	text-align: center;
 	font-family: 'Spectral', serif;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 500;
 	letter-spacing: 1;
-	color: #171717;
-	max-width: 70%;
+	color: #fff;
+	max-width: 600px;
+	margin-bottom: 90px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .numbers {
@@ -286,7 +306,6 @@
 	}
 
 	.text {
-		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 }
