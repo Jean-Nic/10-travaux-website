@@ -26,11 +26,8 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.fadeInDown', {reset: true, beforeReveal: function(){console.log("On scroll")}});
-  </script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 </head>
 
@@ -196,7 +193,7 @@
 
   <div class="container">
     <div class="footer">
-      <img class="animated fadeInDown" src="files/icn-ornaments.svg" padding-top: 0px; alt="Ornaments">
+      <img class="" data-aos="fade-down" src="files/icn-ornaments.svg" padding-top: 0px; alt="Ornaments">
       <p class="title2">Toute l’équipe de Mirego vous souhaite de joyeuses fêtes!</p>
     </div>
     <div class="footer">
@@ -207,7 +204,9 @@
     <div class="footer__icons">
 
     </div>
-
   </div>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
