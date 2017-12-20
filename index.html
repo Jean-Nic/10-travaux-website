@@ -26,9 +26,10 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
     window.sr = ScrollReveal();
-      sr.reveal('.fadeInDown');
+    sr.reveal('.fadeInDown', {reset: true, beforeReveal: function(){console.log("On scroll")}});
   </script>
 
 </head>

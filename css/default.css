@@ -26,7 +26,7 @@ html, html a {
 }
 
 .logo10travaux {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .logo__mirego {
@@ -82,6 +82,7 @@ html, html a {
 	width: 100%;
 	text-align: center;
 	margin: 0;
+	overflow: hidden;
 }
 
 .footer img {
