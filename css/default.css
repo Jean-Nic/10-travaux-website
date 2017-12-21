@@ -222,6 +222,14 @@ html, html a {
 		font-size: 64px;
 		max-width: 700px;
 	}
+
+	#header {
+		height: 1000px;
+	}
+	
+	.logo10travaux {
+		margin-top: 120px;
+	}
 }
 
 @media (max-width: 1050px) {
