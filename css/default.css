@@ -156,9 +156,9 @@ html, html a {
 }
 
 .photo {
-	max-width: 100%;
 	opacity: .25;
 	top: 0;
+	width: 100%
 }
 
 .photo__content {
@@ -215,6 +215,13 @@ html, html a {
 	color: #FFF;
 	width: 100%;
 	max-width: 540px;
+}
+
+@media (min-width: 1900px) {
+	.photo__title {
+		font-size: 64px;
+		max-width: 700px;
+	}
 }
 
 @media (max-width: 1050px) {
